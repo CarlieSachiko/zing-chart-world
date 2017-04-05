@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <!-- jQuery -->
+    <!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script> -->
+
+    <!-- ZING CHART CDN-->
+    <script src= "https://cdn.zingchart.com/zingchart.min.js"></script>
+    <script> zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";</script>
+    <script> zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
+        ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9","ee6b7db5b51705a13dc2339db3edaf6d"];
+      </script>
+    <!-- Angular -->
+<!--     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-resource.min.js"></script>
+ -->
+    <!-- <script src="/javascripts/zingchart-angularjs.js"></script> -->
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to Carlie's <%= title %></p>
+
+    <div id='myChart'></div>
+
+    <!-- <div zingchart id="myChart" zc-json="myJson" zc-height=500 zc-width=600></div> -->
+
+    <script src="/javascripts/app.js"></script>
+  </body>
+</html>
